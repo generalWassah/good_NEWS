@@ -112,7 +112,7 @@ xk is integer variable
 
  k = 0,1,2,...,n-1,n
  
- **Modulo** if byte ...
+ **Modulo** if byte ...memory, matrix
  
  **Diffusion**:
  
