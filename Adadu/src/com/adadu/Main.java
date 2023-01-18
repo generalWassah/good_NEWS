@@ -83,7 +83,7 @@ public class Main {
        int myNum = sc.nextInt();
         if(myNum==1){
             System.out.println("you have chosen Algorithm(Function)");
-            System.out.println("Select option:\n 1.North function \n 2.East function \n 3.West function \n South function");
+            System.out.println("Select option:\n 1.North function \n 2.East function \n 3.West function \n 4.South function");
             int chooseNEWS = sc.nextInt();
             if(chooseNEWS==1){// North function
                 System.out.println("you have chosen North Function");

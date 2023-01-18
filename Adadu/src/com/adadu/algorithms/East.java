@@ -96,8 +96,10 @@ public class East {
             firstOrbit=orbitsGen;
         }
     }// method all orbits
-    // print similar inputs for odd length of string
+    // the method is provided with odd number of character string
+    // print similar text with same orbits as outPutText
     public void printSimilarInputs(String outPutText){
+       outPutText = getFirstOrbit(outPutText);
         if(outPutText.length()%2==0){
             System.out.println("The string length provided is even an therefore has no similar input");
         }
@@ -126,6 +128,6 @@ public class East {
                 System.out.println(similarInputs[i]+" "+i);
             }
         }// else
-    }// print similar inputs
+    }// prints similar text with same orbits as outPutText
 
     }// class

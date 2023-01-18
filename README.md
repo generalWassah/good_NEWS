@@ -23,6 +23,13 @@
  **The four algorithms or functions**
  
  The term **a0x0** will be referred to as '**Adadu** term'
+also a0 is referred to as Adadu constant and is always 0, while x0 is referred to as Adadu variable
+Note: 
+
+(1) The inverse function exists only when the characters in the string is even otherwise the inverse function
+is not defined.
+
+(2) The four algorithms(function) can be represented in matrix form
  
  The **North** function
  
@@ -112,7 +119,12 @@ xk is integer variable
 
  k = 0,1,2,...,n-1,n
  
- **Modulo** if byte ...memory, matrix
+ **Modulo**
+
+Each output of the NEWS function is taken modulo 26 since we are working with the English alphabets
+
+When the input is in the form of blocks or bytes, each output of the NEWS function will be taken modulo 2^r where r is number of bits 
+defined by the blocks or bytes
  
  **Diffusion**:
  
@@ -126,3 +138,17 @@ analysis on plaintext.
 **Iterated function**:
 
 The four algorithms or functions can be iterated generating sequence of distinct orbits until the convergence criteria is met
+
+The iterated function defined by the NEWS function has relationship with the Pells equation
+
+**Memory management**
+
+If the NEWS function were to be implemented using its matrix form, it will result in an inefficient use of memory because each output
+will be provided with its own variable. But our approach ensures that the minimum number of variables requires for the most efficient
+implementation is four(4) no matter how large the string characters get.
+
+**Applications**
+
+Cryptography
+
+Mathematics
